@@ -13,6 +13,13 @@ export default {
   head() {
     return {
       titleTemplate: '%s - Real World Events',
+      meta: [
+        {
+          hid: '%s',
+          name: '%s',
+          content: '',
+        },
+      ],
     }
   },
 }
